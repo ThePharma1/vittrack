@@ -49,8 +49,6 @@ class VitaminPage extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 12),
-
-            // Notes
             Card(
               elevation: 2,
               child: ListTile(
