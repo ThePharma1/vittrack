@@ -1,4 +1,3 @@
-// Cyrine Hariri & Reine El Kadiri
 import 'package:flutter/material.dart';
 import 'home.dart';
 
@@ -14,10 +13,6 @@ class VitaminApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Vitamin Guide",
-      theme: ThemeData(
-        useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.orangeAccent),
-      ),
       home: const HomePage(),
     );
   }
